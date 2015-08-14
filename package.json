@@ -1,12 +1,13 @@
 {
   "name": "real-path",
   "description": "get real case path",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "repository": "anhulife/real-path",
   "author": {
     "name": "anhulife",
     "email": "anhulife@gmail.com"
   },
+  "license": "MIT",
   "dependencies": {
     "path-is-absolute": "~1.0.0"
   },

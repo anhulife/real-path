@@ -1,7 +1,7 @@
 {
   "name": "real-path",
   "description": "get real case path",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "repository": "anhulife/real-path",
   "author": {
     "name": "anhulife",
@@ -12,6 +12,7 @@
     "path-is-absolute": "~1.0.0"
   },
   "scripts": {
+    "postpublish": "cnpm sync real-path",
     "test": "node test.js"
   },
   "engines": {
